@@ -69,10 +69,11 @@
   line-height: 1.33337;
   font-weight: 400;
   padding: 40px 0 20px;
+  width: 100px;
 }
 
-.footer-container {
-  max-width: 1024px;
+.apple-footer .footer-container {
+  max-width: 980px;
   margin: 0 auto;
   padding: 0 22px;
 }
@@ -81,37 +82,37 @@
    TOP LINK COLUMNS
 ================================ */
 
-.footer-links {
+.apple-footer .footer-links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 40px;
   margin-bottom: 24px;
 }
 
-.footer-column h4 {
+.apple-footer .footer-column h4 {
   font-size: 12px;
   font-weight: 600;
   color: #1d1d1f;
   margin-bottom: 10px;
 }
 
-.footer-column ul {
+.apple-footer .footer-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-column li {
+.apple-footer .footer-column li {
   margin-bottom: 8px;
 }
 
-.footer-column a {
+.apple-footer .footer-column a {
   text-decoration: none;
   color: #424245;
   transition: color 0.2s ease;
 }
 
-.footer-column a:hover {
+.apple-footer .footer-column a:hover {
   text-decoration: underline;
 }
 
@@ -119,27 +120,14 @@
    RETAILER ROW
 ================================ */
 
-.footer-retailer {
+.apple-footer .footer-retailer {
   margin-bottom: 16px;
-  font-size: 12px; 
-  font-weight: 300; 
-}
-
-.footer-retailer span {
-  color: blue;
-  font-size: 14px;
-  font-weight: 350;
-}
-
-
-.footer-retailer a {
-  text-decoration: underline;
-}
-
-.near {
-  color: #6e6e73; !important;
   font-size: 12px;
-  font-weight: 300;
+}
+
+
+.apple-footer .footer-retailer a {
+  text-decoration: underline;
 }
 
 /* ================================
@@ -156,42 +144,57 @@
    BOTTOM LEGAL ROW
 ================================ */
 
-.footer-bottom {
+.apple-footer .footer-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
 }
 
-.footer-legal-links {
+.apple-footer .footer-legal-links {
   display: flex;
   gap: 20px;
 }
 
-.footer-legal-links a {
+.apple-footer .footer-legal-links a {
   color: #424245;
   text-decoration: none;
 }
 
-.footer-legal-links a:hover {
+.apple-footer .footer-legal-links a:hover {
   text-decoration: underline;
 }
 
-.footer-bottom p {
+.apple-footer .footer-bottom p {
   margin: 0;
-  color:rgb(245, 245, 247);
 }
+
+
+
 
 .apple-footer {
   background: #f5f5f7;
   width: 100%;
 }
 
-.footer-container {
-  max-width: 980px;   
-  margin: 0 auto;
-  padding: 0 22px;
+.footer-retailer a {
+  color: #0066cc;
 }
+
+.footer-bottom p {
+  color: #6e6e73;
+}
+
+.footer-bottom a {
+  color: #424245;
+}
+
+.footer-retailer p {
+  color: #6e6e73;
+}
+
+
+
 
 /* ================================
    RESPONSIVE
